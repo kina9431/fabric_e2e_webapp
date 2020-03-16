@@ -53,10 +53,10 @@ Step 3:
 如安装不成功，根据提示执行
   ```
   npm audit fix 
+  rm -Rf ../node_module
+  npm install
   ```
 
-或执行rm -Rf ../node_module然后重新npm install
-  
 Step 4:
   ```
   ./startFabric.sh
@@ -70,11 +70,12 @@ Step 5:
    node registerUser.js
    npm start
    ```
-   多次执行node registerUser.js会出错，需要每次删掉，
+   多次执行node registerUser.js会出错，需要执行以下命令删掉，
    ```
    rm -Rf /Users/kina/.hfc-key-store
-   ```
    再重新从node registerAdmin.js开始执行
+   
+   ```
 
 访问`http://localhost:3000`
   如不出Error即访问成功
