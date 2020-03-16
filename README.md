@@ -10,10 +10,14 @@
   ```
   
   版本一定要是上列版本
+
+准备：
+  ```
+  官网下载homebrew：
+  下载git：brew install git
+  安装fabric 1.0：http://www.jeepxie.net/article/758031.html
   
-  
-  下载homebrew
-  下载
+  ```
 <h4>安装及配置</h4>
 
 Step 1:
