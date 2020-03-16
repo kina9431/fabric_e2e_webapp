@@ -9,7 +9,7 @@
   fabric 1.0
   ```
   
-  版本一顶要是上列版本
+  版本一定要是上列版本
   
   
   下载homebrew
@@ -80,7 +80,9 @@ Step 5:
 访问`http://localhost:3000`
   如不出Error即访问成功
   
-如有Error,可在nodejdk文件夹中修改package.json最后一行加入
+
+
+如有Error,可在Step2中，nodejdk文件夹中修改package.json最后一行加入
   ```
   popper.js":"^1.12.9
   然后执行 npm install
