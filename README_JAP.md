@@ -20,13 +20,14 @@
   ```
 <h4>手順</h4>
 
-Step 1:
+<h4>Step 1:</h4>
  ```
   git clone https://github.com/sslinml/fabric_e2e_app.git
  ```
 nodejdkに入る;
   
-Step 2:
+<h4>Step 2:</h4>
+
 ../nodejdk/db.sqlのsql文を沿って、MySQLでデータベースpersonとテーブルpeopleを作る。
 
 MySQL WorkbenchはMySQLの可視化ツール
@@ -48,7 +49,8 @@ CREATE TABLE `people` (
   `department` varchar(64) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
-Step 3:
+<h4>Step 3:</h4>
+
 現在のパスで以下を実行：
   ```
   npm install
@@ -61,14 +63,14 @@ Step 3:
   npm install
   ```
 
-Step 4:
+<h4>Step 4:</h4>
   ```
   Fabricネットワークを起動：./startFabric.sh
   権限に問題があれば：chmod a+x startFabric.sh
   もしまた実行できない場合、basic-networkフォルダーに入り、 chmod a+x start.shを実行
   ```
 
-Step 5:
+<h4>Step 5:</h4>
    ```
    node registerAdmin.js
    node registerUser.js
@@ -86,7 +88,7 @@ Step 5:
 Errorが出なければ成功
   
 
-備考：
+<h4>備考：</h4>
 もしMySQLとWebの接続がうまくできない場合、Step2で、../nodejdk/package.jsonを開く、
 
   ```
